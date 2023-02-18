@@ -1,0 +1,15 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-fslib-dev-231809-authRole",
+            "UnauthRoleArn": "arn:aws:iam::797620162589:role/amplify-fslib-dev-231809-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::797620162589:role/amplify-fslib-dev-231809-authRole",
+            "Region": "us-west-2",
+            "DeploymentBucketName": "amplify-fslib-dev-231809-deployment",
+            "UnauthRoleName": "amplify-fslib-dev-231809-unauthRole",
+            "StackName": "amplify-fslib-dev-231809",
+            "StackId": "arn:aws:cloudformation:us-west-2:797620162589:stack/amplify-fslib-dev-231809/b60f24a0-c48d-11ea-a4a0-06cac24c53a2",
+            "AmplifyAppId": "d1wrj15c941bci"
+        }
+    }
+}

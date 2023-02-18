@@ -1,0 +1,35 @@
+{
+    "paths": [
+        {
+            "name": "/item",
+            "lambdaFunction": "FslibFxn",
+            "privacy": {
+                "open": true
+            }
+        }
+    ],
+    "resourceName": "FslibAPI",
+    "apiName": "FslibAPI",
+    "functionArns": [
+        {
+            "lambdaFunction": "FslibFxn"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-fslib-dev-231809-authRole",
+        "unAuthRoleName": "amplify-fslib-dev-231809-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "FslibFxn",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ],
+    "uuid": "e502ecf9"
+}
